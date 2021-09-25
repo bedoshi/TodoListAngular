@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { XyzComponent } from './xyz/xyz.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HerosComponent } from './heros/heros.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    XyzComponent
+    XyzComponent,
+    HerosComponent
   ],
   imports: [
     BrowserModule,
