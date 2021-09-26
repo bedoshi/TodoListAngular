@@ -7,12 +7,14 @@ import { AppComponent } from './app.component';
 import { XyzComponent } from './xyz/xyz.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeroesComponent } from './heroes/heroes.component';
+import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     XyzComponent,
-    HeroesComponent
+    HeroesComponent,
+    HeroDetailComponent
   ],
   imports: [
     BrowserModule,
